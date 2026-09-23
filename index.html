@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#0b0d10">
+  <meta name="description" content="HanczFormation – egyedi 3D tervezés és 3D nyomtatás.">
+  <title>HanczFormation | 3D tervezés és nyomtatás</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="intro" class="intro" aria-label="HanczFormation intro">
+    <div class="intro-bg" aria-hidden="true"></div>
+    <button class="intro-inner" id="introButton" type="button" aria-label="Belépés az oldalra">
+      <div class="intro-brand">
+        <div class="emblem-stage" aria-hidden="true">
+          <div class="emblem-assembly" id="emblemAssembly">
+            <div class="piece-layer">
+              <span class="piece p1" style="--i:1"><img src="assets/emblem-pieces/piece-01.png" alt=""></span>
+              <span class="piece p2" style="--i:2"><img src="assets/emblem-pieces/piece-02.png" alt=""></span>
+              <span class="piece p3" style="--i:3"><img src="assets/emblem-pieces/piece-03.png" alt=""></span>
+              <span class="piece p4" style="--i:4"><img src="assets/emblem-pieces/piece-04.png" alt=""></span>
+              <span class="piece p5" style="--i:5"><img src="assets/emblem-pieces/piece-05.png" alt=""></span>
+              <span class="piece p6" style="--i:6"><img src="assets/emblem-pieces/piece-06.png" alt=""></span>
+              <span class="piece p7" style="--i:7"><img src="assets/emblem-pieces/piece-07.png" alt=""></span>
+              <span class="piece p8" style="--i:8"><img src="assets/emblem-pieces/piece-08.png" alt=""></span>
+              <span class="piece p9" style="--i:9"><img src="assets/emblem-pieces/piece-09.png" alt=""></span>
+            </div>
+            <img class="emblem-final" src="assets/hf-emblem.png" alt="HanczFormation HF embléma">
+          </div>
+        </div>
+
+        <div class="wordmark-block">
+          <div class="wordmark-stage" aria-label="HANCZFORMATION">
+            <div class="letters" id="letters">
+              <span class="letter" style="--i:1"><img src="assets/letters/01-H.png" alt=""></span>
+              <span class="letter" style="--i:2"><img src="assets/letters/02-A.png" alt=""></span>
+              <span class="letter" style="--i:3"><img src="assets/letters/03-N.png" alt=""></span>
+              <span class="letter" style="--i:4"><img src="assets/letters/04-C.png" alt=""></span>
+              <span class="letter" style="--i:5"><img src="assets/letters/05-Z.png" alt=""></span>
+              <span class="letter" style="--i:6"><img src="assets/letters/06-F.png" alt=""></span>
+              <span class="letter" style="--i:7"><img src="assets/letters/07-O.png" alt=""></span>
+              <span class="letter" style="--i:8"><img src="assets/letters/08-R.png" alt=""></span>
+              <span class="letter" style="--i:9"><img src="assets/letters/09-M.png" alt=""></span>
+              <span class="letter" style="--i:10"><img src="assets/letters/10-A.png" alt=""></span>
+              <span class="letter" style="--i:11"><img src="assets/letters/11-T.png" alt=""></span>
+              <span class="letter" style="--i:12"><img src="assets/letters/12-I.png" alt=""></span>
+              <span class="letter" style="--i:13"><img src="assets/letters/13-O.png" alt=""></span>
+              <span class="letter" style="--i:14"><img src="assets/letters/14-N.png" alt=""></span>
+            </div>
+            <img class="wordmark-final" id="wordmarkFinal" src="assets/hf-wordmark.png" alt="HANCZFORMATION">
+          </div>
+          <div class="intro-tag">Az ötlet formát ölt.</div>
+          <div class="intro-enter">Kattints a belépéshez</div>
+        </div>
+      </div>
+    </button>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="HanczFormation kezdőlap"><img src="assets/hf-full-logo.png" alt="HanczFormation"></a>
+    <button class="menu-toggle" id="menuToggle" type="button" aria-label="Menü megnyitása">☰</button>
+    <nav id="mainNav">
+      <a href="#termekek">Termékek</a>
+      <a href="#szolgaltatasok">Szolgáltatások</a>
+      <a href="#folyamat">Hogyan készül?</a>
+      <a href="#kapcsolat">Kapcsolat</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow">3D TERVEZÉS • SZEMÉLYRE SZABÁS • KIS SZÉRIA</div>
+          <h1>Az ötletből<br><span>kézzelfogható forma.</span></h1>
+          <p>Egyedi, személyre szabható 3D nyomtatott tárgyak otthonra, ajándékba, gaminghez és rendezvényekre.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#termekek">Termékek</a>
+            <a class="btn ghost" href="#kapcsolat">Egyedi ötleted van?</a>
+          </div>
+        </div>
+        <div class="hero-logo-card">
+          <img src="assets/hf-full-logo.png" alt="HanczFormation logó">
+        </div>
+      </div>
+    </section>
+
+    <section id="termekek" class="section dark-section">
+      <div class="wrap">
+        <div class="section-head">
+          <div class="eyebrow">KATEGÓRIÁK</div>
+          <h2>Fedezd fel a HanczFormation világát</h2>
+        </div>
+        <div class="category-grid">
+          <a class="category-card" href="#kapcsolat"><span>01</span><b>Dekorációk</b><small>Moduláris és szezonális lakásdekor.</small></a>
+          <a class="category-card" href="#kapcsolat"><span>02</span><b>Lámpák</b><small>Személyre szabható LED-es fénydekor.</small></a>
+          <a class="category-card" href="#kapcsolat"><span>03</span><b>Gaming</b><small>Kontroller-, headset- és egyéb tartók.</small></a>
+          <a class="category-card" href="#kapcsolat"><span>04</span><b>Esküvő & Events</b><small>Ültetők, asztalszámok és rendezvénydekor.</small></a>
+          <a class="category-card" href="#kapcsolat"><span>05</span><b>Egyedi ajándékok</b><small>Névre, alkalomra és ötletre szabva.</small></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="szolgaltatasok" class="section light-section">
+      <div class="wrap split">
+        <div>
+          <div class="eyebrow">HANCZFORMATION CUSTOM</div>
+          <h2>Nem csak nyomtatunk.<br>Tervezünk is.</h2>
+          <p>A tárgyakat úgy alakítjuk ki, hogy gyárthatók, tartósak, látványosak és szükség esetén személyre szabhatók legyenek.</p>
+          <div class="points">
+            <div class="point"><b>Saját tervezés</b><small>Ötlettől a nyomtatható modellig.</small></div>
+            <div class="point"><b>Kis szériás gyártás</b><small>Rendelésre és ismételhetően.</small></div>
+            <div class="point"><b>Személyre szabás</b><small>Név, szín, felirat vagy egyedi forma.</small></div>
+            <div class="point"><b>Precíz kivitelezés</b><small>Részletekre optimalizált FDM gyártás.</small></div>
+          </div>
+        </div>
+        <aside class="quote-card">
+          <img src="assets/hf-emblem.png" alt="HF embléma">
+          <h3>Van egy saját ötleted?</h3>
+          <p>Küldd el, mit szeretnél. Méret, szín, felirat vagy referencia alapján is lehet egyeztetni.</p>
+          <a class="btn primary" href="#kapcsolat">Ajánlatot kérek</a>
+        </aside>
+      </div>
+    </section>
+
+    <section id="folyamat" class="section process-section">
+      <div class="wrap">
+        <div class="section-head center">
+          <div class="eyebrow">A GYÁRTÁS</div>
+          <h2>Az ötlettől a kész darabig</h2>
+        </div>
+        <div class="process-grid">
+          <div class="process-card"><span>1</span><b>Ötlet</b><small>Leírás, méret, fotó vagy skicc.</small></div>
+          <div class="process-card"><span>2</span><b>3D tervezés</b><small>Gyártható modell és részletek.</small></div>
+          <div class="process-card"><span>3</span><b>Próba & finomítás</b><small>Illesztések, színek és méret ellenőrzése.</small></div>
+          <div class="process-card"><span>4</span><b>3D nyomtatás</b><small>Rétegről rétegre felépítve.</small></div>
+          <div class="process-card"><span>5</span><b>Kész termék</b><small>Ellenőrzés, összeállítás, átadás.</small></div>
+        </div>
+        <div class="video-card">
+          <div class="video-copy"><b>Gyártási látványterv</b><small>A videó a következő körökben tovább finomítható.</small></div>
+          <video controls muted playsinline preload="metadata" poster="assets/hf-full-logo.png">
+            <source src="assets/printing-demo.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <section id="kapcsolat" class="section contact-section">
+      <div class="wrap contact-grid">
+        <div>
+          <div class="eyebrow">EGYEDI RENDELÉS</div>
+          <h2>Mondd el az ötleted.</h2>
+          <p>Ez a GitHub Pages változat statikus előnézet. Az ajánlatkérő űrlap végleges bekötését később Formspree, Netlify Forms vagy a WordPress oldal kezelheti.</p>
+        </div>
+        <form id="demoForm" class="contact-form">
+          <label>Név<input name="name" required></label>
+          <label>E-mail<input name="email" type="email" required></label>
+          <label>Téma<select name="type"><option>Egyedi termék</option><option>Lámpa</option><option>Dekoráció</option><option>Gaming</option><option>Egyéb</option></select></label>
+          <label>Elképzelés<textarea name="message" rows="5" required></textarea></label>
+          <button class="btn primary" type="submit">Ajánlatkérés előkészítése</button>
+          <p class="form-note" id="formNote">Az űrlap jelenleg bemutató módú, nem küld adatot sehova.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-inner">
+      <img src="assets/hf-wordmark.png" alt="HanczFormation">
+      <span>© <span id="year"></span> HanczFormation</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
